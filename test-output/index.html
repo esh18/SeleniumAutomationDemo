@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\WORK\STUDY\Java\SELENIUM AUTOMATION PROJECTS\SeleniumAutoDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test001_check_that_The_login_succesfully">test001_check_that_The_login_succesfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test001_select_all_the_filter">test001_select_all_the_filter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test002_click_on_the_any_product">test002_click_on_the_any_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test002_click_on_the_sandwitch_menu_and_logout_button">test002_click_on_the_sandwitch_menu_and_logout_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test003_check_the_logout_is_successfully_happened">test003_check_the_logout_is_successfully_happened</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test003_click_on_the_add_to_cart_button">test003_click_on_the_add_to_cart_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test004_click_on_the_cart_button">test004_click_on_the_cart_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test004_enter_the_username_and_password_and_click_on_the_login_button(problem_user, secret_sauce)">test004_enter_the_username_and_password_and_click_on_the_login_button(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test004_enter_the_username_and_password_and_click_on_the_login_button(performance_glitch_user, secret_sauce)">test004_enter_the_username_and_password_and_click_on_the_login_button(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test004_enter_the_username_and_password_and_click_on_the_login_button(standard_user, secret_sauce)">test004_enter_the_username_and_password_and_click_on_the_login_button(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test004_enter_the_username_and_password_and_click_on_the_login_button(error_user, secret_sauce)">test004_enter_the_username_and_password_and_click_on_the_login_button(error_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.LoginTC" class="method navigator-link" hash-for-method="test004_enter_the_username_and_password_and_click_on_the_login_button(visual_user, secret_sauce)">test004_enter_the_username_and_password_and_click_on_the_login_button(visual_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test005_click_on_the_checkout_button">test005_click_on_the_checkout_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button">test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test007_click_on_the_finish_button">test007_click_on_the_finish_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumProject.SeleniumAutoDemo.SelectProductTC" class="method navigator-link" hash-for-method="test008_click_on_the_back_home_button">test008_click_on_the_back_home_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumProject.SeleniumAutoDemo.SelectProductTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test001_select_all_the_filter">
+                  </a> <!-- test001_select_all_the_filter -->
+                  <span class="method-name">test001_select_all_the_filter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test002_click_on_the_any_product">
+                  </a> <!-- test002_click_on_the_any_product -->
+                  <span class="method-name">test002_click_on_the_any_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test003_click_on_the_add_to_cart_button">
+                  </a> <!-- test003_click_on_the_add_to_cart_button -->
+                  <span class="method-name">test003_click_on_the_add_to_cart_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004_click_on_the_cart_button">
+                  </a> <!-- test004_click_on_the_cart_button -->
+                  <span class="method-name">test004_click_on_the_cart_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test005_click_on_the_checkout_button">
+                  </a> <!-- test005_click_on_the_checkout_button -->
+                  <span class="method-name">test005_click_on_the_checkout_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button">
+                  </a> <!-- test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button -->
+                  <span class="method-name">test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test007_click_on_the_finish_button">
+                  </a> <!-- test007_click_on_the_finish_button -->
+                  <span class="method-name">test007_click_on_the_finish_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test008_click_on_the_back_home_button">
+                  </a> <!-- test008_click_on_the_back_home_button -->
+                  <span class="method-name">test008_click_on_the_back_home_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumProject.SeleniumAutoDemo.LoginTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test001_check_that_The_login_succesfully">
+                  </a> <!-- test001_check_that_The_login_succesfully -->
+                  <span class="method-name">test001_check_that_The_login_succesfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test002_click_on_the_sandwitch_menu_and_logout_button">
+                  </a> <!-- test002_click_on_the_sandwitch_menu_and_logout_button -->
+                  <span class="method-name">test002_click_on_the_sandwitch_menu_and_logout_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test003_check_the_logout_is_successfully_happened">
+                  </a> <!-- test003_check_the_logout_is_successfully_happened -->
+                  <span class="method-name">test003_check_the_logout_is_successfully_happened</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004_enter_the_username_and_password_and_click_on_the_login_button(problem_user, secret_sauce)">
+                  </a> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button(problem_user, secret_sauce) -->
+                  <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004_enter_the_username_and_password_and_click_on_the_login_button(performance_glitch_user, secret_sauce)">
+                  </a> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button</span>
+                  <span class="parameters">(performance_glitch_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004_enter_the_username_and_password_and_click_on_the_login_button(standard_user, secret_sauce)">
+                  </a> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button(standard_user, secret_sauce) -->
+                  <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004_enter_the_username_and_password_and_click_on_the_login_button(error_user, secret_sauce)">
+                  </a> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button(error_user, secret_sauce) -->
+                  <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button</span>
+                  <span class="parameters">(error_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test004_enter_the_username_and_password_and_click_on_the_login_button(visual_user, secret_sauce)">
+                  </a> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button(visual_user, secret_sauce) -->
+                  <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button</span>
+                  <span class="parameters">(visual_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\WORK\STUDY\Java\SELENIUM AUTOMATION PROJECTS\SeleniumAutoDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;SeleniumProject.SeleniumAutoDemo.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumProject.SeleniumAutoDemo.LoginTC&quot;/&gt;
+      &lt;class name=&quot;SeleniumProject.SeleniumAutoDemo.SelectProductTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test004_enter_the_username_and_password_and_click_on_the_login_button')
+data.setCell(0, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(0, 3, 11341);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test004_enter_the_username_and_password_and_click_on_the_login_button')
+data.setCell(1, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(1, 3, 6375);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test004_enter_the_username_and_password_and_click_on_the_login_button')
+data.setCell(2, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(2, 3, 6358);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test004_enter_the_username_and_password_and_click_on_the_login_button')
+data.setCell(3, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(3, 3, 6342);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test004_enter_the_username_and_password_and_click_on_the_login_button')
+data.setCell(4, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(4, 3, 6333);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test001_select_all_the_filter')
+data.setCell(5, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(5, 3, 6132);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button')
+data.setCell(6, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(6, 3, 4300);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test005_click_on_the_checkout_button')
+data.setCell(7, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(7, 3, 3064);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test001_check_that_The_login_succesfully')
+data.setCell(8, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(8, 3, 3048);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test002_click_on_the_sandwitch_menu_and_logout_button')
+data.setCell(9, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(9, 3, 2104);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test002_click_on_the_any_product')
+data.setCell(10, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(10, 3, 2079);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test007_click_on_the_finish_button')
+data.setCell(11, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(11, 3, 2072);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test004_click_on_the_cart_button')
+data.setCell(12, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(12, 3, 2071);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test008_click_on_the_back_home_button')
+data.setCell(13, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(13, 3, 2068);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test003_click_on_the_add_to_cart_button')
+data.setCell(14, 2, 'SeleniumProject.SeleniumAutoDemo.SelectProductTC')
+data.setCell(14, 3, 2060);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test003_check_the_logout_is_successfully_happened')
+data.setCell(15, 2, 'SeleniumProject.SeleniumAutoDemo.LoginTC')
+data.setCell(15, 3, 26);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumProject.SeleniumAutoDemo.LoginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test001_check_that_The_login_succesfully</span>
+                <span class="method-start">3797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test002_click_on_the_sandwitch_menu_and_logout_button</span>
+                <span class="method-start">6849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test003_check_the_logout_is_successfully_happened</span>
+                <span class="method-start">8957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button(standard_user, secret_sauce)</span>
+                <span class="method-start">8987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button(problem_user, secret_sauce)</span>
+                <span class="method-start">15346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">21680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button(error_user, secret_sauce)</span>
+                <span class="method-start">33022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test004_enter_the_username_and_password_and_click_on_the_login_button(visual_user, secret_sauce)</span>
+                <span class="method-start">39366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">45742 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumProject.SeleniumAutoDemo.SelectProductTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45965 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test001_select_all_the_filter</span>
+                <span class="method-start">48999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test002_click_on_the_any_product</span>
+                <span class="method-start">55133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test003_click_on_the_add_to_cart_button</span>
+                <span class="method-start">57213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test004_click_on_the_cart_button</span>
+                <span class="method-start">59273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test005_click_on_the_checkout_button</span>
+                <span class="method-start">61345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button</span>
+                <span class="method-start">64410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test007_click_on_the_finish_button</span>
+                <span class="method-start">68711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test008_click_on_the_back_home_button</span>
+                <span class="method-start">70783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">72852 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

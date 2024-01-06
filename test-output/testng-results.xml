@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-06T13:19:09 IST" name="Suite" finished-at="2024-01-06T13:20:22 IST" duration-ms="73059">
+    <groups>
+    </groups>
+    <test started-at="2024-01-06T13:19:09 IST" name="Test" finished-at="2024-01-06T13:20:22 IST" duration-ms="73059">
+      <class name="SeleniumProject.SeleniumAutoDemo.SelectProductTC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:19:55 IST" name="setup" finished-at="2024-01-06T13:19:58 IST" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test001_select_all_the_filter()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:19:58 IST" name="test001_select_all_the_filter" finished-at="2024-01-06T13:20:04 IST" duration-ms="6132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001_select_all_the_filter -->
+        <test-method signature="test002_click_on_the_any_product()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:04 IST" name="test002_click_on_the_any_product" finished-at="2024-01-06T13:20:06 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002_click_on_the_any_product -->
+        <test-method signature="test003_click_on_the_add_to_cart_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:06 IST" name="test003_click_on_the_add_to_cart_button" finished-at="2024-01-06T13:20:08 IST" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003_click_on_the_add_to_cart_button -->
+        <test-method signature="test004_click_on_the_cart_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:08 IST" name="test004_click_on_the_cart_button" finished-at="2024-01-06T13:20:10 IST" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_click_on_the_cart_button -->
+        <test-method signature="test005_click_on_the_checkout_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:10 IST" name="test005_click_on_the_checkout_button" finished-at="2024-01-06T13:20:13 IST" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test005_click_on_the_checkout_button -->
+        <test-method signature="test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:13 IST" name="test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button" finished-at="2024-01-06T13:20:17 IST" duration-ms="4300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test006_enter_the_firstname_lastname_and_zipcode_and_click_on_the_continue_button -->
+        <test-method signature="test007_click_on_the_finish_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:17 IST" name="test007_click_on_the_finish_button" finished-at="2024-01-06T13:20:20 IST" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test007_click_on_the_finish_button -->
+        <test-method signature="test008_click_on_the_back_home_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:20 IST" name="test008_click_on_the_back_home_button" finished-at="2024-01-06T13:20:22 IST" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test008_click_on_the_back_home_button -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.SelectProductTC@f58853c]" started-at="2024-01-06T13:20:22 IST" name="cleanup" finished-at="2024-01-06T13:20:22 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- SeleniumProject.SeleniumAutoDemo.SelectProductTC -->
+      <class name="SeleniumProject.SeleniumAutoDemo.LoginTC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:09 IST" name="setup" finished-at="2024-01-06T13:19:13 IST" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test001_check_that_The_login_succesfully()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:13 IST" name="test001_check_that_The_login_succesfully" finished-at="2024-01-06T13:19:16 IST" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001_check_that_The_login_succesfully -->
+        <test-method signature="test002_click_on_the_sandwitch_menu_and_logout_button()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:16 IST" name="test002_click_on_the_sandwitch_menu_and_logout_button" finished-at="2024-01-06T13:19:18 IST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002_click_on_the_sandwitch_menu_and_logout_button -->
+        <test-method signature="test003_check_the_logout_is_successfully_happened()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:18 IST" name="test003_check_the_logout_is_successfully_happened" finished-at="2024-01-06T13:19:18 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003_check_the_logout_is_successfully_happened -->
+        <test-method signature="test004_enter_the_username_and_password_and_click_on_the_login_button(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:18 IST" name="test004_enter_the_username_and_password_and_click_on_the_login_button" data-provider="logindata" finished-at="2024-01-06T13:19:24 IST" duration-ms="6358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button -->
+        <test-method signature="test004_enter_the_username_and_password_and_click_on_the_login_button(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:24 IST" name="test004_enter_the_username_and_password_and_click_on_the_login_button" data-provider="logindata" finished-at="2024-01-06T13:19:30 IST" duration-ms="6333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button -->
+        <test-method signature="test004_enter_the_username_and_password_and_click_on_the_login_button(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:30 IST" name="test004_enter_the_username_and_password_and_click_on_the_login_button" data-provider="logindata" finished-at="2024-01-06T13:19:42 IST" duration-ms="11341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button -->
+        <test-method signature="test004_enter_the_username_and_password_and_click_on_the_login_button(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:42 IST" name="test004_enter_the_username_and_password_and_click_on_the_login_button" data-provider="logindata" finished-at="2024-01-06T13:19:48 IST" duration-ms="6342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button -->
+        <test-method signature="test004_enter_the_username_and_password_and_click_on_the_login_button(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:48 IST" name="test004_enter_the_username_and_password_and_click_on_the_login_button" data-provider="logindata" finished-at="2024-01-06T13:19:54 IST" duration-ms="6375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_enter_the_username_and_password_and_click_on_the_login_button -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:SeleniumProject.SeleniumAutoDemo.LoginTC@5efa40fe]" started-at="2024-01-06T13:19:54 IST" name="cleanup" finished-at="2024-01-06T13:19:55 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- SeleniumProject.SeleniumAutoDemo.LoginTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
